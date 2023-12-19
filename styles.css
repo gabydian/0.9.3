@@ -1,52 +1,94 @@
-.container {
-    padding: 10px;
-    background-color: #fff;
-    display: flex;
-}
-
-
 div {
     display: flex;
-    background-color: white;
+    background-color: darkgreen;
+    border: none;
+    padding: 5px;
     justify-content: space-between;
-    border-radius: 8px;
-    padding: 15px;
-}
-
-h1 {
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0px;
-}
-
-button {
-    fill: black;
-    display: flex;
-    border: 1px solid white;
-    border-radius: 50px;
-    justify-content: center;
-    align-items: center;
-}
-
-svg {
-    width: auto;
-    height: auto;
+  }
+  .pesquisar{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.logo, .botoes{
+    padding: 20px;  
+  }
+  h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Halvetica, sans-serif;
+  }
+  .search {
     display: flex;
-}
-
-.logo {
-    width: 250px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    background-color: #B1CEB0;
+  }
+  .icones {
     display: flex;
-    justify-content: space-between;
-}
-
-.lupa, .notificacoes, .messenger {
-width: 40px;
-height: 40px;
-border-radius: 50px;
-}
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    justify-content: space-around;
+   }
+  .messenger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    background-color: #B1CEB0;
+  }
+  .notificacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    position: relative;
+    background-color: #B1CEB0;
+  }
+  span {
+    position: absolute;
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+    top: -20px;
+    right: -15px;
+    color: white;
+    font-size: 16px;
+    background-color: red;
+    width: 25px;
+  }
+  .perfil {
+    background-image: url("https://i.pinimg.com/originals/7d/d3/96/7dd396dfcb8c5da076164fea8580d4d2.jpg");
+  
+    position: relative;
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+    border: none;
+    border-radius: 30px;
+  }
+  .opcoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #B1CEB0;
+    border: none;
+    padding: 5px;
+    height: 25px;
+    border-radius: 30px;
+    bottom: -2px;
+    right: -5px;
+  }
